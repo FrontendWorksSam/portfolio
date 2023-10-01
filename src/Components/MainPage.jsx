@@ -10,8 +10,9 @@ import Container from 'react-bootstrap/Container';
 import ju from "../Components/Assets/ju.png"
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Timeline from "./Timeline.jsx";
 // import '../ScreenCSS/MainPage.css'
-const MainPage=({FlipCard})=>{
+const MainPage=({FlipCard,Timeline})=>{
     const [loopNum,setLoopNum]=useState(0);
     const [isDeleting,setIsDeleting]=useState(false);
     const toRotate=["Web Developer","Competitive Programmer","Machine Learning enthusiast"];
@@ -112,7 +113,11 @@ const MainPage=({FlipCard})=>{
 
             </section>
             <section className="exp" id="Experience">
+                <Timeline/>
                 
+
+            </section>
+            <section className="projects"id="myprojects">
 
             </section>
         </div>
