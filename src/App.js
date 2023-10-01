@@ -4,6 +4,7 @@ import FlipCard from './Components/Flipcard';
 import MainPage from './Components/MainPage';
 import Navbar from './Components/Navbar';
 import CardSlider from './Components/CardSlider';
+import Timeline from './Components/Timeline';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <MainPage
       FlipCard={FlipCard}
       CardSlider={CardSlider}
+      Timeline={Timeline}
       
       />
       <Navbar/>
