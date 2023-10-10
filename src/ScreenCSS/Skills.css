@@ -1,0 +1,52 @@
+:root {
+    --theme-color-1: #0084ff;
+    --theme-color-2: #1c53df;
+    --bg-color: #000422;
+    --white-shade-1: #ffffff;
+    --white-shade-2: #d0d0d0;
+    --white-rgba: rgba(255, 255, 255, 0.12);
+  }
+.imagewrapper{
+    height:60px;
+    width:60px;
+    /* border-radius: 50%; */
+    margin:8px 8px;
+    border: 2px transparent white;
+    border-radius: 50%;
+    padding: 10px 10px;
+    background-color: var(--white-rgba);
+    /* border; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.imagewrapper:hover{
+    /* border:2px solid white; */
+    /* border-radius: 50%; */
+    /* margin:6px 6px; */
+    background-color: var(--white-rgba);
+
+}
+/* .imagewrapper img{
+    border-radius: 50%;
+} */
+.skillbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* gap: 10px; */
+    justify-content: space-between;
+    padding:10px 30px;
+    background-color: var(--white-rgba);
+  border: 2px solid var(--white-rgba);
+  backdrop-filter: blur(8px);
+  /* transform-style: preserve-3d; */
+  box-shadow:
+    inset 2px 2px 4px 0 rgba(255, 255, 255, .3),
+    inset -4px -4px 4px 0 rgba(0, 0, 0, 0.125),
+    0 0 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
