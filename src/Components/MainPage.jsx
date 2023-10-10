@@ -1,4 +1,12 @@
 import React from "react";
+import miu from "./Assets/julogo.png"
+import "../ScreenCSS/Skills.css"
+import { DiBootstrap,DiCss3,DiGit,DiGithubBadge,DiHtml5,DiJsBadge,DiJavascript1,DiPython,DiReact,DiNodejsSmall,DiNodejs, DiJavascript } from "react-icons/di";
+import { CgCPlusPlus } from "react-icons/cg";
+import {SiKeras,SiTensorflow,SiPytorch,SiPandas,SiNumpy,SiOpencv,SiTailwindcss,SiVitess,SiTypescript,SiJupyter,SiPycharm,SiCodeforces,SiLeetcode,SiCodechef} from "react-icons/si";
+import {LiaKaggle} from "react-icons/lia";
+import {TbBrandVscode,TbBrandNextjs} from "react-icons/tb";
+
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -45,7 +53,7 @@ const MainPage=({FlipCard,Timeline})=>{
         setIsDeleting(false);
         setLoopNum(loopNum+1);
         setIndex(1);
-        setDelta(500);
+        setDelta(400);
 
     } else {
         setIndex(prevIndex => prevIndex + 1);
@@ -116,6 +124,101 @@ const MainPage=({FlipCard,Timeline})=>{
                 <Timeline/>
                 
 
+            </section>
+            <section id="myskills" className="">
+                <div id="myskillbox" className="gap-6 flex flex-col">
+                    <div className="skillbox" id="skillbox1">
+                        <div className="imagewrapper">
+                            <DiHtml5 size={40} color="white"/>
+                            
+                        </div>
+                        <div className="imagewrapper">
+                            <DiCss3 size={40} color="white"/>
+                        </div>
+                        
+                        <div className="imagewrapper">
+                            <DiBootstrap size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <DiJavascript1 size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <DiReact size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <SiTailwindcss size={40} color="white"/>
+                            
+                        </div>
+                        <div className="imagewrapper">
+                            <SiVitess size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <SiTypescript size={40} color="white"/>
+                        </div>
+
+
+
+                    </div>
+                    <div className="skillbox" id="skillbox2">
+                        <div className="imagewrapper">
+                            <DiPython size={40} color="white"/>
+                            
+                        </div>
+                        <div className="imagewrapper">
+                            <SiPandas size={40} color="white"/>
+                            
+                        </div>
+                        <div className="imagewrapper">
+                            <SiNumpy size={40} color="white"/>
+                            
+                        </div>
+                        <div className="imagewrapper">
+                            <SiKeras size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <SiPytorch size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <SiTensorflow size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <SiOpencv size={40} color="white"/>
+                        </div>
+
+
+
+                    </div>
+                    <div className="skillbox" id="skillbox3">
+                        <div className="imagewrapper">
+                            <DiGit size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <DiGithubBadge size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <TbBrandVscode size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <LiaKaggle size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <SiJupyter size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <SiCodechef size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <SiCodeforces size={40} color="white"/>
+                        </div>
+                        <div className="imagewrapper">
+                            <SiLeetcode size={40} color="white"/>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
             </section>
             <section className="projects"id="myprojects">
 
