@@ -48,7 +48,7 @@ const Navbar=()=>{
 
                 } */}
                 <li>
-                    <a href="#" className="flex rounded-md p-2 mt-24 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
+                    <a href="#Profile" className="flex rounded-md p-2 mt-24 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
                         <img src={person} className="w-6 h-6 m-2 rounded-lg bg-indigo-200"></img>
                         <span className={`${!open && "hidden"} origin-left duration-200 relative`}>
                             Profile
@@ -56,7 +56,7 @@ const Navbar=()=>{
                     </a>
                 </li>
                 <li>
-                <a href="#" className="flex rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
+                <a href="#Education" className="flex rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
                 <img src={education} className="w-6 h-6 m-2 rounded-lg bg-indigo-200"></img>
                         <span className={`${!open && "hidden"} origin-left duration-200`}>
                             Education
@@ -65,7 +65,7 @@ const Navbar=()=>{
 
                 </li>
                 <li>
-                <a href="#" className="flex rounded-md p-2 mt-12 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
+                <a href="#Experience" className="flex rounded-md p-2 mt-12 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
                 <img src={exp} className="w-6 h-6 m-2 rounded-lg bg-indigo-200"></img>
                         <span className={`${!open && "hidden"} origin-left duration-200 `}>
                             Experience
@@ -74,7 +74,7 @@ const Navbar=()=>{
 
                 </li>
                 <li>
-                <a href="#" className="flex rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
+                <a href="#myskills" className="flex rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
                 <img src={skl} className="w-6 h-6 m-2 rounded-lg bg-indigo-200"></img>
                         <span className={`${!open && "hidden"} origin-left duration-200`}>
                             Skills
@@ -82,7 +82,7 @@ const Navbar=()=>{
                     </a>
                 </li>
                 <li>
-                <a href="#" className="flex rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
+                <a href="#myprojects" className="flex rounded-md p-2 cursor-pointer hover:bg-light-white text-gray-300 text-sm items-center gap-x-4">
                 <img src={project} className="w-6 h-6 m-2 rounded-lg bg-indigo-200"></img>
                         <span className={`${!open && "hidden"} origin-left duration-200`}>
                             Projects
