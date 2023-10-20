@@ -50,3 +50,27 @@
     0 0 10px 1px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
 }
+.slide-right{
+    animation: 3s slide-right;
+}
+@keyframes slide-right {
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: 10%;
+    }
+    
+}
+.slide-left{
+    animation:3s slide-left;
+}
+@keyframes slide-left {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 10%;
+    }
+    
+}

@@ -127,7 +127,7 @@ const MainPage=({FlipCard,Timeline})=>{
             </section>
             <section id="myskills" className="">
                 <div id="myskillbox" className="gap-6 flex flex-col">
-                    <div className="skillbox" id="skillbox1">
+                    <div className="skillbox slide-right" id="skillbox1">
                         <div className="imagewrapper">
                             <DiHtml5 size={40} color="white"/>
                             
@@ -159,7 +159,7 @@ const MainPage=({FlipCard,Timeline})=>{
 
 
                     </div>
-                    <div className="skillbox" id="skillbox2">
+                    <div className="skillbox slide-left" id="skillbox2">
                         <div className="imagewrapper">
                             <DiPython size={40} color="white"/>
                             
@@ -188,7 +188,7 @@ const MainPage=({FlipCard,Timeline})=>{
 
 
                     </div>
-                    <div className="skillbox" id="skillbox3">
+                    <div className="skillbox slide-right" id="skillbox3">
                         <div className="imagewrapper">
                             <DiGit size={40} color="white"/>
                         </div>
